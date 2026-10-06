@@ -10,7 +10,6 @@
 # Append the output to new string and pop the strStack parent and set it to current string
 # Else if it is a character then append it to current string
 
-
 class Solution:
     def decodeString(self, s: str) -> str:
         if not s:
